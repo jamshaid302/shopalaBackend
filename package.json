@@ -1,0 +1,48 @@
+{
+  "name": "shopala-backend",
+  "version": "1.0.0",
+  "description": "Shopala Backend with Node & Express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Venrup/shopala-backend.git"
+  },
+  "author": "@shamsla",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Venrup/shopala-backend/issues"
+  },
+  "homepage": "https://github.com/Venrup/shopala-backend#readme",
+  "dependencies": {
+    "accesscontrol": "^2.2.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-mongo-sanitize": "^2.1.0",
+    "helmet": "^4.6.0",
+    "http-errors": "^1.8.1",
+    "http-status": "^1.5.0",
+    "joi": "^17.5.0",
+    "jwt-decode": "^3.1.2",
+    "mongoose": "^6.0.13",
+    "multer": "^1.4.3",
+    "nanoid": "^3.1.30",
+    "nodemailer": "^6.7.2",
+    "passport": "^0.5.0",
+    "password-hash": "^1.2.2",
+    "swagger-jsdoc": "^6.0.8",
+    "swagger-ui-express": "^4.1.6",
+    "xss-clean": "^0.1.1"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.15",
+    "passport-jwt": "^4.0.0",
+    "swagger-autogen": "^2.15.0"
+  }
+}
